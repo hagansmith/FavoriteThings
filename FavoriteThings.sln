@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FavoriteThings", "FavoriteThings\FavoriteThings.csproj", "{136093CB-567D-4034-91BB-51F7532604E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstConsoleApp", "..\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp.csproj", "{AE4E0146-E9EE-481B-A482-B7D2589F826D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +17,15 @@ Global
 		{136093CB-567D-4034-91BB-51F7532604E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{136093CB-567D-4034-91BB-51F7532604E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{136093CB-567D-4034-91BB-51F7532604E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4E0146-E9EE-481B-A482-B7D2589F826D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4E0146-E9EE-481B-A482-B7D2589F826D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4E0146-E9EE-481B-A482-B7D2589F826D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4E0146-E9EE-481B-A482-B7D2589F826D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DDB5E28F-FF66-4A86-9887-664227FA8016}
+		SolutionGuid = {F09D8903-1E02-44A3-8F39-BFD01DE5B849}
 	EndGlobalSection
 EndGlobal
