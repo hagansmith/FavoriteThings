@@ -32,14 +32,15 @@ namespace FavoriteThings.Things
             set
             {
                 if (value > 10)
-                    Console.WriteLine("That's not possible");
+                    Console.WriteLine("thats not possible");
                 else
                     _timesVisited = value;
             }
         }
 
-        public Places (string name, int value)
+        public Places (string name, int visits)
         {
+            this.TimesVisited = visits;
             Console.WriteLine($"I have visited {name}, {visits} times");
         }
           
