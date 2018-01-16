@@ -44,7 +44,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Things\Beer.cs" />
     <Compile Include="Things\Bees.cs" />
+    <Compile Include="Things\MiniFig.cs" />
     <Compile Include="Things\People.cs" />
     <Compile Include="Things\Places.cs" />
   </ItemGroup>

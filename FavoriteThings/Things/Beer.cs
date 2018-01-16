@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace FavoriteThings.Things
 {
-    class People
+    class Beer
     {
-        public string NameOfPerson { get; set; }
-        public int PersonAge { get; set; }
+        public string Name { get; set; }
+        public bool Can { get; set; }
+        public string Type { get; set; }
     }
 }
