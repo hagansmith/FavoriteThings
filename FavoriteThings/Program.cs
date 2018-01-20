@@ -38,21 +38,26 @@ namespace FavoriteThings
                 new Beer { Name = "Little Harpeth", Type = "Lager", Can = true},
                 new Beer { Name = "Mantra", Type = "Ale", Can = false }
             };
-
-            //Write the information about my favorite things to the console using String interpolation
-            //Console.WriteLine($"My favorite bee is {bee1.BeeName} he is {bee1.BeeAge} days old and {(bee1.Flight ? "can" : "can not")} fly.");
-            //Console.WriteLine($"{person1.NameOfPerson} is my wife and favorite person she is {person1.PersonAge}");
            
-             foreach (var place in allThePlaces)
-             {
+            foreach (var place in allThePlaces)
+            {
                 Console.WriteLine($"{place.PlaceName} is not my favorite place but it is popular. I have visited {place.PlaceName} {place.TimesVisited} times.");
-             }
+            }
 
-             foreach (var beer in beers)
+            foreach (var beer in beers)
             {
                 Console.WriteLine($"{beer.Name} is in a {(beer.Can ? "can" : "bottle")} and is a {beer.Type}");
             }
 
+            foreach (var bee in allMyBees)
+            {
+                Console.WriteLine($"My favorite bee is {bee.BeeName} he is {bee.BeeAge} days old and {(bee.Flight ? "can" : "can not")} fly.");
+            }
+
+            foreach (var person in persons)
+            {
+                Console.WriteLine($"{person.NameOfPerson} is my favorite person and is {person.PersonAge} old");
+            }
                 Console.ReadKey();
         }
     }
